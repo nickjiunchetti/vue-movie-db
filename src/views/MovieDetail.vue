@@ -18,6 +18,7 @@ export default {
 		const route = useRoute()
 
 		onBeforeMount(() => {
+			console.log(route.params.id)
 			fetch(`${env.url}?i=${route.params.id+env.apikey}&plot=full`)
 				.then(response => response.json())
 				.then(data => {

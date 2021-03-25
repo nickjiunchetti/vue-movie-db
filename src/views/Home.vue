@@ -1,12 +1,12 @@
 <template>
 	<div class="home">
 		<div class="feature-card">
-			<router-link to="/movie/tt0409591">
-				<img src="https://static.wikia.nocookie.net/naruto/images/3/33/Naruto_Uzumaki_%28Parte_I_-_HD%29.png/revision/latest/scale-to-width-down/310?cb=20160316113315&path-prefix=pt-br" alt="Naruto Poster" class="featured-img"/>
+			<router-link to="/movie/tt2488496">
+				<img src="https://img.ibxk.com.br/2021/01/13/13184201318384.jpg" alt="Star Wars Poster" class="featured-img"/>
 			</router-link>
 			<div class="detail">
-				<h3>Naruto</h3>
-				<p>Naruto Uzumaki, bla bla bla lorem ipsum</p>
+				<h3>Star Wars: Episode VII - The Force Awakens</h3>
+				<p>Space Battles and lightsabers</p>
 			</div>
 		</div>
 		<form @submit.prevent="SearchMovies()" class="search-box">
